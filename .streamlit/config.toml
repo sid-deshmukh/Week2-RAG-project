@@ -1,0 +1,21 @@
+# Playful "backyard on a sunny day" theme: sky blues, sandy oranges, rounded everything.
+[theme]
+base = "light"
+primaryColor = "#2F7DE1"
+backgroundColor = "#FFF8EC"
+secondaryBackgroundColor = "#E6F3FF"
+textColor = "#1F3A5F"
+linkColor = "#E8772E"
+borderColor = "#BFDDF7"
+font = "Nunito:https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap"
+headingFont = "Fredoka:https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&display=swap"
+headingFontWeights = [700, 600, 600, 600, 600, 600]
+baseFontSize = 16
+baseRadius = "1rem"
+buttonRadius = "full"
+showWidgetBorder = true
+
+[theme.sidebar]
+backgroundColor = "#D3ECFF"
+secondaryBackgroundColor = "#FFFFFF"
+borderColor = "#A9D3F5"

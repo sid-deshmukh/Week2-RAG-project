@@ -1,0 +1,32 @@
+[project]
+name = "ask-mufasa"
+version = "0.1.0"
+description = "A NotebookLM-style app: upload PDFs and chat with them (LangChain + Pinecone + LlamaParse)."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=1.4",
+    "langchain-openai>=1.7",
+    "langchain-pinecone>=0.2.13",
+    "langchain-text-splitters>=1.1",
+    "llama-cloud>=1.0",
+    "llama-index-core>=0.14",
+    "openai>=1.0",
+    "pinecone>=7.3",
+    "python-dotenv>=1.0",
+    "streamlit>=1.45",
+]
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["toddler_book*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
